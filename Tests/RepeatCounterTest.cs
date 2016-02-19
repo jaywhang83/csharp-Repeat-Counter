@@ -16,7 +16,7 @@ namespace RepeatCounterNS
     public void CounterRepeats_singleCharacterIn_sentence()
     {
       RepeatCounter test = new RepeatCounter();
-      Assert.Equal("3", test.CounterRepeats("a", "a  b a c a"));
+      Assert.Equal("3", test.CounterRepeats("a", "a b a c a"));
     }
     [Fact]
     public void CounterRepeats_singleWord()
@@ -41,6 +41,12 @@ namespace RepeatCounterNS
     {
       RepeatCounter test = new RepeatCounter();
       Assert.Equal("1", test.CounterRepeats("Cat", "I am not a CAT person"));
+    }
+    [Fact]
+    public void CounterRepeats_EmptyInput()
+    {
+      RepeatCounter test = new RepeatCounter();
+      Assert.Equal("Inputs cannot be empty. Please enter a word and/or sentence", test.CounterRepeats("Cat", ""));
     }
   }
 }

@@ -9,17 +9,26 @@ namespace RepeatCounterNS
   {
     public string CounterRepeats(string word, string sentence)
     {
-      string[] wordArray = sentence.ToLower().Split(' ');
-      int counter = 0;
-      for(int i = 0; i < wordArray.Length; i++)
+      if (!String.IsNullOrEmpty(word) && !String.IsNullOrEmpty(sentence))
       {
-        if (wordArray[i] == word.ToLower())
+        string[] wordArray = sentence.ToLower().Split(' ');
+
+        int counter = 0;
+        for(int i = 0; i < wordArray.Length; i++)
         {
-          Console.Write(wordArray[i]);
-          counter++;
+          if (wordArray[i] == word.ToLower())
+          {
+            Console.Write(wordArray[i]);
+            counter++;
+          }
         }
+        return counter.ToString();
       }
-      return counter.ToString();
+      else
+      {
+        return "Inputs cannot be empty. Please enter a word and/or sentence";
+      }
+
     }
   }
 }
