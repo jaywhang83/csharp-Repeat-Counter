@@ -1,0 +1,39 @@
+Behavior
+It returns how many times the letter the user is searching for appears in the letter user is searching in.
+Input: "a", "a"
+output: 1,
+
+Behavior
+It returns how many times the letter the user is searching for appears in the word user is searching in.
+Input: "p", "apple"
+output: 2,
+
+Behavior
+It returns how many times the word the user is searching for appears in the the word user is searching in.
+Input: "hello", "hello"
+output: 1,
+
+Behavior
+It returns how many times the word the user is searching for appears in the the word user is searching in.
+Input: "cat", "I am not a cat person"
+output: 1,
+
+Behavior
+It returns how many times the word the user is searching for appears in the the word user is searching in.
+Input: "cat", "I am not a cat person"
+output: 1,
+
+Behavior
+It returns how many times the word the user is searching for appears in the the sentence user is searching in.
+Input: "cat", "I am not a cat person. I am not a cat person"
+output: 1,
+
+Behavior
+It returns match not found when the word the user is searching for does not appears in the sentence or word user is searching in.
+Input: "apple", "I Like meat"
+output: "match not found",
+
+Behavior
+It returns error message if user does not input anything.
+Input: "", ""
+output: "Not a valid input. Please enter word/sentence",
