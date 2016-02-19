@@ -1,0 +1,25 @@
+body{
+  align-items: center;
+
+}
+
+.jumbotron {
+  text-align: center;
+  box-shadow: 10px 10px 5px #888888;
+  margin-bottom: 100px;
+}
+
+.form-group {
+  border-style: outset;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+form {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;;
+}
+
+label {
+  margin-left: 20px;
+}
