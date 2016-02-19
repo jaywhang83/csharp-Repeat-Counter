@@ -30,5 +30,11 @@ namespace RepeatCounterNS
       RepeatCounter test = new RepeatCounter();
       Assert.Equal("1", test.CounterRepeats("cat", "I am not a cat person"));
     }
+    [Fact]
+    public void CounterRepeats_singleWordinSentenceMultipleTimes()
+    {
+      RepeatCounter test = new RepeatCounter();
+      Assert.Equal("2", test.CounterRepeats("cat", "I am not a cat person. I am telling you, I am not a cat person"));
+    }
   }
 }

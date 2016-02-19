@@ -25,7 +25,7 @@ output: 1,
 
 Behavior
 It returns how many times the word the user is searching for appears in the the sentence user is searching in.
-Input: "cat", "I am not a cat person. I am not a cat person"
+Input: "cat", "I am not a cat person. I am telling you, I am not a cat person"
 output: 1,
 
 Behavior
