@@ -16,9 +16,10 @@ namespace RepeatCounterNS
         int counter = 0;
         for(int i = 0; i < wordArray.Length; i++)
         {
-          if (wordArray[i] == word.ToLower())
+          // Console.WriteLine(wordArray[i]);
+          // Console.WriteLine("replaced: " + Regex.Replace(wordArray[i], @"[\W\d-]", ""));
+          if (String.Equals(Regex.Replace(wordArray[i], @"[\W\d-]", ""), word.ToLower()) == true)
           {
-            Console.Write(wordArray[i]);
             counter++;
           }
         }

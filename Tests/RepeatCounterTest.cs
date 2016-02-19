@@ -46,7 +46,13 @@ namespace RepeatCounterNS
     public void CounterRepeats_EmptyInput()
     {
       RepeatCounter test = new RepeatCounter();
-      Assert.Equal("Inputs cannot be empty. Please enter a word and/or sentence", test.CounterRepeats("Cat", ""));
+      Assert.Equal("Inputs cannot be empty. Please enter a word and/or sentence", test.CounterRepeats("cat", ""));
+    }
+    [Fact]
+    public void CounterRepeats_WordWithSpecialCharacter()
+    {
+      RepeatCounter test = new RepeatCounter();
+      Assert.Equal("3", test.CounterRepeats("apple", "#apple  apple  is good for you, apple4"));
     }
   }
 }

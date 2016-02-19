@@ -9,27 +9,27 @@ Input: "a", "a b a c a"
 output: 3,
 
 Behavior
-It returns how many times the word the user is searching for appears in the the word user is searching in.
+It returns how many times the word the user is searching for appears in the word user is searching in.
 Input: "hello", "hello"
 output: 1,
 
 Behavior
-It returns how many times the word the user is searching for appears in the the word user is searching in.
+It returns how many times the word the user is searching for appears in the word user is searching in.
 Input: "cat", "I am not a cat person"
 output: 1,
 
 Behavior
-It returns how many times the word the user is searching for appears in the the word user is searching in.
+It returns how many times the word the user is searching for appears in the word user is searching in.
 Input: "cat", "I am not a cat person"
 output: 1,
 
 Behavior
-It returns how many times the word the user is searching for appears in the the sentence user is searching in.
+It returns how many times the word the user is searching for appears in the sentence user is searching in.
 Input: "cat", "I am not a cat person. I am telling you, I am not a cat person"
 output: 1,
 
 Behavior
-It returns how many times the word the user is searching for appears in the the sentence user is searching in regardless of capitalization.
+It returns how many times the word the user is searching for appears in the sentence user is searching in regardless of capitalization.
 Input: "Cat", "I am not a CAT person"
 output: 1,
 
@@ -40,5 +40,10 @@ output: "match not found",
 
 Behavior
 It returns error message if user does not input anything.
-Input: "", ""
-output: "Not a valid input. Please enter word/sentence",
+Input: "cat", ""
+output: "Inputs cannot be empty. Please enter a word and/or sentence",
+
+Behavior
+It returns how many times the word the user is searching for appears in the sentence user is searching in.
+Input: "apple",  "#apple  apple  is good for you, apple4"
+output: "3",
