@@ -12,6 +12,11 @@ namespace RepeatCounterNS
       RepeatCounter test = new RepeatCounter();
       Assert.Equal("1", test.CounterRepeats("a", "a"));
     }
-
+    [Fact]
+    public void CounterRepeats_singleCharacterInaWord()
+    {
+      RepeatCounter test = new RepeatCounter();
+      Assert.Equal("3", test.CounterRepeats("a", "a  b a c a"));
+    }
   }
 }

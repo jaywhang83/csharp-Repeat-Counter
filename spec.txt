@@ -5,8 +5,8 @@ output: 1,
 
 Behavior
 It returns how many times the letter the user is searching for appears in the word user is searching in.
-Input: "p", "apple"
-output: 2,
+Input: "a", "a b a c a"
+output: 3,
 
 Behavior
 It returns how many times the word the user is searching for appears in the the word user is searching in.
