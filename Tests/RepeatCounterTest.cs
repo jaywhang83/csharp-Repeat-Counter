@@ -24,5 +24,11 @@ namespace RepeatCounterNS
       RepeatCounter test = new RepeatCounter();
       Assert.Equal("1", test.CounterRepeats("hello", "hello"));
     }
+    [Fact]
+    public void CounterRepeats_singleWordinSentence()
+    {
+      RepeatCounter test = new RepeatCounter();
+      Assert.Equal("1", test.CounterRepeats("cat", "I am not a cat person"));
+    }
   }
 }
