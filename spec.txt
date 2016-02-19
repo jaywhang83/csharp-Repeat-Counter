@@ -1,42 +1,37 @@
 Behavior
 It returns how many times the letter the user is searching for appears in the letter user is searching in.
 Input: "a", "a"
-output: 1,
+output: "a appears 1 time/times in this sentence."
 
 Behavior
 It returns how many times the letter the user is searching for appears in the word user is searching in.
 Input: "a", "a b a c a"
-output: 3,
+output: "a appears 3 time/times in this sentence."
 
 Behavior
 It returns how many times the word the user is searching for appears in the word user is searching in.
 Input: "hello", "hello"
-output: 1,
+output: "hello appears 1 time/times in this sentence.",
 
 Behavior
 It returns how many times the word the user is searching for appears in the word user is searching in.
 Input: "cat", "I am not a cat person"
-output: 1,
-
-Behavior
-It returns how many times the word the user is searching for appears in the word user is searching in.
-Input: "cat", "I am not a cat person"
-output: 1,
+output: "cat appears 1 time/times in this sentence."
 
 Behavior
 It returns how many times the word the user is searching for appears in the sentence user is searching in.
 Input: "cat", "I am not a cat person. I am telling you, I am not a cat person"
-output: 1,
+output: "cat appears 2 time/times in this sentence."
 
 Behavior
 It returns how many times the word the user is searching for appears in the sentence user is searching in regardless of capitalization.
-Input: "Cat", "I am not a CAT person"
-output: 1,
+Input: "Cat", "I am not a CAT, cAt, caT person"
+output: "Cat appears 3 time/times in this sentence."
 
 Behavior
 It returns match not found when the word the user is searching for does not appears in the sentence or word user is searching in.
 Input: "apple", "I Like meat"
-output: "match not found",
+output: "Match not found",
 
 Behavior
 It returns error message if user does not input anything.
@@ -46,4 +41,4 @@ output: "Inputs cannot be empty. Please enter a word and/or sentence",
 Behavior
 It returns how many times the word the user is searching for appears in the sentence user is searching in.
 Input: "apple",  "#apple  apple  is good for you, apple4"
-output: "3",
+output: "apple appears 3 time/times in this sentence."
