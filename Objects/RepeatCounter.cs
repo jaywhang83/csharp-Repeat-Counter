@@ -9,11 +9,11 @@ namespace RepeatCounterNS
   {
     public string CounterRepeats(string word, string sentence)
     {
-      string[] wordArray = sentence.Split(' ');
+      string[] wordArray = sentence.ToLower().Split(' ');
       int counter = 0;
       for(int i = 0; i < wordArray.Length; i++)
       {
-        if (wordArray[i] == word)
+        if (wordArray[i] == word.ToLower())
         {
           Console.Write(wordArray[i]);
           counter++;

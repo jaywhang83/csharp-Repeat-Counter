@@ -29,6 +29,11 @@ Input: "cat", "I am not a cat person. I am telling you, I am not a cat person"
 output: 1,
 
 Behavior
+It returns how many times the word the user is searching for appears in the the sentence user is searching in regardless of capitalization.
+Input: "Cat", "I am not a CAT person"
+output: 1,
+
+Behavior
 It returns match not found when the word the user is searching for does not appears in the sentence or word user is searching in.
 Input: "apple", "I Like meat"
 output: "match not found",
