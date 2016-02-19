@@ -1,4 +1,4 @@
-# Repeat Counter 
+# Repeat Counter
 
 #### Allows user to see how many times the word they are looking for appears in the sentence 02-12-2016
 
@@ -27,9 +27,9 @@ email:jaywhang83@gmail.company
 
 ## Technologies Used
 
-HTML, C#, Nancy, Razor, xUnit
+HTML, C#, Nancy, Razor, xUnit, CSS, Bootstrp
 ### License
 
 This software is licensed under the MIT license.
 
-Copyright (c) 2015 Jay Whang
+Copyright (c) 2016 Jay Whang
