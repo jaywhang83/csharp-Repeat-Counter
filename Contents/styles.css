@@ -23,3 +23,16 @@ form {
 label {
   margin-left: 20px;
 }
+
+.btn-info {
+  margin-top: 75px;
+}
+
+.result {
+  margin-top: 50%;
+  background: rgba(248, 248, 245, 0.5);
+}
+.resultBody {
+  background-image: url("grass.jpg");
+
+}

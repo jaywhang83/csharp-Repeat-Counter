@@ -1,17 +1,17 @@
-@Html.Partial("header.cshtml");
+@Html.Partial("header.cshtml")
 <body>
-<div class="container">
-  <div class ="jumbotron">
-    <h1>Welcome to the word repeat counter</h1>
+  <div class="container">
+    <div class ="jumbotron">
+      <h1>Welcome to the word repeat counter</h1>
+    </div>
+    <div class = "container form-group center_div">
+      <form class = "inputForm" action ="/result" method="post">
+        <label for="wordToSearh">Please enter a word to search</label>
+        <input type="text" name="wordToSearh">
+        <label for="sentence">Please enter a sentence to search from</label>
+        <input type="text" name="sentence">
+        <button class = "btn btn-success" type="submit">Get Count</button>
+      </form>
+    </div>
   </div>
-  <div class = "container form-group center_div">
-    <form class = "inputForm" action ="/result" method="post">
-      <label for="wordToSearh">Please enter a word to search</label>
-      <input type="text" name="wordToSearh">
-      <label for="sentence">Please enter a sentence to search from</label>
-      <input type="text" name="sentence">
-      <button class = "btn btn-success" type="submit">Get Count</button>
-    </form>
-  </div>
-</div>
 <body>
