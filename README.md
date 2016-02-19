@@ -27,7 +27,7 @@ email:jaywhang83@gmail.company
 
 ## Technologies Used
 
-HTML, C#, Nancy, Razor, xUnit, CSS, Bootstrp
+HTML, C#, Nancy, Razor, xUnit, CSS, Bootstrap
 ### License
 
 This software is licensed under the MIT license.
